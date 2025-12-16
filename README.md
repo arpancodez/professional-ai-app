@@ -51,3 +51,44 @@ professional-ai-app/
 
 ## License
 MIT License - see LICENSE file for details
+
+
+## Getting Started
+
+### Prerequisites
+- Node.js 16+
+- OpenAI API key
+
+### Installation
+
+```bash
+clone https://github.com/arpancodez/professional-ai-app.git
+cd professional-ai-app
+npm install
+```
+
+### Configuration
+
+Create a `.env` file:
+
+```env
+OPENAI_API_KEY=your_api_key_here
+DATABASE_URL=mongodb://...
+PORT=3000
+```
+
+### Running
+
+```bash
+npm run dev
+```
+
+## API Endpoints
+
+- `POST /api/chat` - Send message to AI
+- `GET /api/conversations` - Get user conversations  
+- `DELETE /api/conversations/:id` - Delete conversation
+
+## License
+
+MIT License
